@@ -14,8 +14,8 @@ A privacy-focused web application that allows users to upload files and removes 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
-    cd metadata-eraser
+    git clone https://github.com/beagleworks/metadata_eraser
+    cd metadata_eraser
     ```
 
 2.  **Create a virtual environment and install dependencies:**
