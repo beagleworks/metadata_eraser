@@ -1,0 +1,12 @@
+**/__pycache__/
+.venv
+.venv/
+.env
+.env/
+.vscode/
+.pytest_cache/
+*.egg-info/
+/instance/
+*.log
+/temp/
+.gitdev/

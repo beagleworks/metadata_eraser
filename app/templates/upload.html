@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Upload Files{% endblock %}
+
+{% block content %}
+    <h1>Upload Files to Erase Metadata</h1>
+    <div id="drop-zone">
+        <p>Drag & drop files here or click to select</p>
+        <input type="file" id="file-input" multiple>
+    </div>
+    <div id="progress-container"></div>
+    <div id="result-container"></div>
+{% endblock %}

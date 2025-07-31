@@ -1,0 +1,27 @@
+[project]
+name = "metadata-eraser"
+version = "0.1.0"
+description = "A web application to remove metadata from files."
+authors = [{ name = "Jules", email = "jules@example.com" }]
+requires-python = ">=3.11"
+dependencies = [
+    "flask",
+    "Pillow",
+    "PyMuPDF",
+    "python-docx",
+    "openpyxl",
+    "python-pptx",
+    "werkzeug",
+    "python-magic",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "uv",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+exclude = ["tests*"]
