@@ -17,7 +17,7 @@ To get started with development, you'll need to set up the project on your local
 
 2.  **Clone your fork** locally:
     ```bash
-    git clone https://github.com/your-username/metadata_eraser.git
+    git clone https://github.com/beagleworks/metadata_eraser.git
     cd metadata_eraser
     ```
 
