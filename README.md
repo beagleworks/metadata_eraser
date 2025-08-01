@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[**日本語版はこちら**](https://github.com/beagleworks/metadata_eraser/blob/master/README_ja.md)
+[**日本語版はこちら**](README_ja.md)
 
 A privacy-focused web application that allows users to upload files and removes all metadata (EXIF, author information, location data, etc.) to return clean, private files.
 
